@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    height: 15%; 
+    background-color: lightseagreen;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+.header h1 {
+    font-size: 40px;
+    padding: 30px;
+}
+.button button{
+    width:20%;
+    height:10%;
+    margin-left:7%;
+    margin-top:5%;
+    font-size:20px;
+    background-color:lightyellow;
+    border:1px solid black;
+    padding:2%;
+    color:black;
+}
+.button{
+    margin-left:10%;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+}
+.admin h2{
+    margin-left:38%;
+    margin-top:10px;
+}
+
+.header button{
+    font-size:18px;
+    border:none;
+    background-color: lightseagreen;
+    padding:15px;
+    border-radius: 8px;
+    color:black;
+}
+.header button:hover{
+    background-color: white;
+}
+#adm{
+    margin-left:40%;
+}
+#but{
+    margin-left:24%;
+}

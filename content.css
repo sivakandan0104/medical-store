@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+.main {
+    width: 60%;
+    border: 2px solid black;
+    margin-top:-2%;
+    margin-left: 20%;
+    /*display: flex;*/
+    height: auto;
+    /*flex-direction: column;*/
+    background-color: white;
+    height:auto;
+}
+
+.container p{
+    font-size:22px;
+    margin-left:16%;
+}
+.button {
+    display: inline-block;
+}
+img{
+    width:200px;
+    height:200px;
+}
+#cart, #pur {
+    padding: 10px;
+    color:black;
+    border: 1px solid black;
+    font-size:20px;
+    cursor: pointer;
+}
+#cart{
+    background-color: lightcoral;
+}
+#pur{
+    background-color: lightseagreen;
+    margin-left:20%;
+}
+
+.header1 {
+    height: 15%; 
+    background-color: lightseagreen;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+body{
+    margin:0px;
+}
+
+.header1 h1 {
+    font-size: 40px;
+    padding: 30px;
+}
+.container{
+    width:100%;
+    margin:5%;
+    flex-direction: column;
+}
+#id1{
+    font-weight: bold;
+}
+#id2{
+    font-weight: lighter;
+    margin-left:20px;
+}
+.display{
+    display:inline-block;
+    margin-left:20%;
+}
+input[type=number]{
+    width:100px;
+    padding:5px;
+    font-size:15px;
+}
+.cont {
+    display: flex;
+}
+
+.left {
+    width: 40%;
+    margin-top: 20px;
+}
+
+.right {
+    width: 20%;
+    margin-top: 4%;
+}
